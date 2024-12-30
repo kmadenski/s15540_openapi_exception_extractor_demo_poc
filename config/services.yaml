@@ -21,4 +21,9 @@ services:
             - '../src/Kernel.php'
 
     # add more service definitions when explicit configuration is needed
-    # please note that last definitions always *replace* previous ones
+#    # please note that last definitions always *replace* previous ones
+    App\Describer\HttpExceptionRouterDescriber:
+        arguments:
+            - '@service_container'
+        tags:
+            - { name: 'nelmio_api_doc.route_describer' }
