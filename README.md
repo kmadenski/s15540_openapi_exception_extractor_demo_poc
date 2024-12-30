@@ -1,6 +1,7 @@
 # OpenAPI Exception Extractor Demo POC
 
-This repository demonstrates the usage of [krzysztofmadenski/oas-http-exception-extractor](https://github.com/krzysztofmadenski/oas-http-exception-extractor) - a tool that automatically enhances OpenAPI documentation by analyzing static code for HTTP exception handling.
+This repository demonstrates the usage of [krzysztofmadenski/oas-http-exception-extractor](https://github.com/kmadenski/oas-http-exception-extractor) - a tool that automatically enhances OpenAPI documentation by analyzing static code for HTTP exception handling.
+This repository is MIT created for thesis purposes in PJWSTK.
 
 ## Overview
 
